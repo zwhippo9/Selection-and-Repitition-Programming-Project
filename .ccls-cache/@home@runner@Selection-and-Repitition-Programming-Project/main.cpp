@@ -16,20 +16,16 @@ int main() {
   cout << "Enter the mathmatical operation (+ or -): ";
   cin >> operation;
 
-//Perform calculations
-switch (operation) {
-  case '-' :
-    cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
-      break;
-  case '+' :
+//Perform calculations with nest instead of a switch
+  if (operation == '+'){
     cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
-      break;
- default:
-  cout << " Error: Unsuported operation." << endl;
-
-}
-
-  return 0;
+  } else if (operation == '-'){
+    cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
+  } else {
+    cout << "Error: Unsupported operation" << endl;
+  }
+    
+    return 0;
 
 }
 
