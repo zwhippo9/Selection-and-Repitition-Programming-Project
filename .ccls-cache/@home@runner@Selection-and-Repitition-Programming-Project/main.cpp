@@ -19,9 +19,11 @@ int main() {
 //Perform calculations with nest instead of a switch
   if (operation == '+'){
     cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
-  } else if (operation == '-'){
+  } 
+  else if (operation == '-'){
     cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
-  } else {
+  } 
+  else {
     cout << "Error: Unsupported operation" << endl;
   }
     
