@@ -20,11 +20,11 @@ int main() {
 switch (operation) {
   case '-' :
     cout << num1 << " - " << num2 << " = " << num1 - num2 << endl;
-      break;
+  break;
   case '+' :
     cout << num1 << " + " << num2 << " = " << num1 + num2 << endl;
-      break;
- default:
+  break;
+  default:
   cout << " Error: Unsuported operation." << endl;
 
 }
