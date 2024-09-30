@@ -33,5 +33,3 @@ switch (operation) {
 
 }
 
-//Had issues with the switch statement. I did not realize the format could not have spaces inside of the '' I was able to get it to work with by removing the spaces the spaces.
-//Hardest part was firguring out how to read the error for unsupported operation, but by only defining addition or subtraction it made every otehr operation an error.
